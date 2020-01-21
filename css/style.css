@@ -292,6 +292,25 @@ div.group-icons a{
 		margin-top: 60px;
 	}
 
+	.content{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.bloco1{
+		display: flex;
+		flex-direction: column;
+	}
+	.bloco2{
+		display: flex;
+		flex-direction: column;
+	}
+	.bloco3{
+		display: flex;
+		flex-direction: column;
+	}
+
+
 }
 
 @media screen and (max-width: 500px){
@@ -299,6 +318,19 @@ div.group-icons a{
 	nav.menu-mobile{
 		display: block;
 	}
+	.bloco1{
+		display: flex;
+		flex-direction: column;
+	}
+	.bloco2{
+		display: flex;
+		flex-direction: column;
+	}
+	.bloco3{
+		display: flex;
+		flex-direction: column;
+	}
+
 }
 
 
