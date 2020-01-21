@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>alefdev</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width;initial-scale=1.0;maximum-scale=1.0">
+    <meta name="keywords" content="dev,desenvolvedor,front-end,site,fazer site, comprar site,portifolio">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body >
+	<header>
+		<div class="container">
+			<div class="logo"><h2>Alefdev</h2></div>
+			<nav class="menu-desktop">
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li class="selected">
+						<a href="trabalhos.html">Trabalhos</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="menu-mobile">
+				<h2><i class="fa fa-bars"></i></h2>
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li class="selected">
+						<a href="trabalhos.html">Trabalhos</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="clear"></div>
+		</div>
+	</header>
+
+		<section>
+			<div class="container" style="padding: 10px;">
+				<div class="content">
+					<div class="bloco1">
+						<div class="trabalho1">
+							<a href="https://alefdav.github.io/card/" target="_blank" ><img src="./images/desktop.png"></a>
+							<p><h1>Card de propaganda chamativo!</h1></p>
+						</div>
+						<div class="trabalho1">
+							<a href="https://alefdav.github.io/laboratoriocofep/" target="_blank"><img src="./images/cofep.png"></a>
+							<p><h1>Homepage desenvolvida para aproximar os clientes da empresa</h1></p>
+						</div>
+					</div>
+					<div class="bloco2">
+						<div class="trabalho1">
+							<a href="https://alefdav.github.io/login2/" target="_blank"><img src="./images/login2.png"></a>
+							<p><h1>Tela de login simples</h1></p>
+						</div>
+						<div class="trabalho1">
+							<a href="https://alefdav.github.io/login3/" target="_blank"><img src="./images/login1.png"></a>
+							<p><h1>Tela de login simples</h1></p>
+						</div>
+					</div>
+					<div class="bloco3">
+						<div class="trabalho1">
+							<a href="https://www.zapon.pt" target="_blank"><img src="./images/zapon.png"></a>
+							<p><h1>Landing page optimizado para ser exibido no top Google</h1></p>
+						</div>
+					</div>
+				</div>		
+			</div>
+		</section>
+
+
+
+	<footer class="footer1">
+		<div class="container">
+			 <div class="w33">
+			 	<h3>Feito por Alef David</h3>
+			 	<p><i class="fa fa-phone" aria-hidden="true"></i> (21)97958-3904</p>
+			 </div>
+			 <div class="w33">
+			 	<h3>Todos os direitos reservados</h3>
+			 </div>
+			 <div class="w33">
+			 	<h3>Fale comigo</h3>
+			 	<div class="group-icons">
+			 		<a href="https://github.com/alefdav" target="_blank"><i class="fa fa-github"></i></a>
+			 		<a href="https://api.whatsapp.com/send?1=pt_BR&phone=5521979583904" target="_blank"><i class="fa fa-whatsapp"></i></a>
+			 	</div>
+			 </div>
+			<div class="clear"></div>		
+		</div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script >
+		$('nav.menu-mobile h2').click(function(){
+			$('nav.menu-mobile ul').slideToggle();
+		})
+	</script>
+</body>
+</html>
