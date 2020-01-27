@@ -309,6 +309,10 @@ div.group-icons a{
 		display: flex;
 		flex-direction: column;
 	}
+	.bloco4{
+		display: flex;
+		flex-direction: column;
+	}
 
 
 }
